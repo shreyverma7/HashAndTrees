@@ -44,6 +44,9 @@ internal class Program
                     binarySearch.Insert(63);
                     binarySearch.Insert(67);
                     binarySearch.Display();
+                    binarySearch.GetSize();
+                    bool result = binarySearch.IfExists(67, binarySearch);
+                    Console.WriteLine(result);
                     Console.WriteLine("\n");
                     break;
                 case 3:
